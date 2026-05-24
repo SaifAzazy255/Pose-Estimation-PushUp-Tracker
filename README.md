@@ -8,10 +8,6 @@
 ## 📌 Overview
 A real-time fitness tracker utilizing MediaPipe Pose Estimation and OpenCV to accurately count push-ups via biomechanical angle analysis. Instead of relying on a black-box Machine Learning classifier, this system utilizes pure biomechanical math and trigonometry to calculate the exact angle of the elbow joint in real-time.
 
-## 🎥 Demo Output
-*(Put your final Pushup_Demo_Output.mp4 as a GIF here)*
-`![PushUp Demo](link_to_your_gif_here)`
-
 ## ⚙️ How It Works (The Logic)
 The script isolates the right arm's landmarks:
 * **Point 12:** Right Shoulder
